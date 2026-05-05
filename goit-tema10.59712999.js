@@ -207,15 +207,15 @@
       });
     }
   }
-})({"7wZbQ":[function(require,module,exports,__globalThis) {
+})({"9JJ5D":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "439701173a9199ea";
+var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "9440bf780f77c784";
+module.bundle.HMR_BUNDLE_ID = "7055c94b59712999";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -713,38 +713,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"2R06K":[function(require,module,exports,__globalThis) {
-// Завдання 1
-// Завдання "Таймер інтервалу": Створіть програму, яка виводить повідомлення кожну секунду за допомогою setInterval. Після 5 повідомлень зупиніть виконання інтервалу за допомогою clearInterval.
-const counterEl = document.querySelector(".counter");
-let number = 0;
-const id = setInterval(()=>{
-    number += 1;
-    counterEl.textContent = number;
-    if (number === 5) clearInterval(id);
-}, 1000);
-// =================================================================
-// Завдання 2
-// Завдання "Анімація елементів": Створіть кілька елементів на сторінці і реалізуйте просту анімацію, змінюючи їх розмір, положення чи стилі через певний інтервал за допомогою setInterval.
-const colorEl = document.querySelector(".block1");
-const sizeEl = document.querySelector(".block2");
-let size = 10;
-setInterval(()=>{
-    let r = Math.floor(Math.random() * 256);
-    let g = Math.floor(Math.random() * 256);
-    let b = Math.floor(Math.random() * 256);
-    colorEl.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
-    size += 1;
-    sizeEl.style.width = size + "px";
-    sizeEl.style.height = size + "px";
-}, 1000);
-console.log(counterEl, colorEl, sizeEl); // =================================================================
- // Завдання 3
- // Завдання "Інтерактивна гра": Створіть просту інтерактивну гру, де гравець має натискати на елементи на сторінці протягом певного інтервалу часу, використовуючи setInterval. Реалізуйте лічильник очок та відслідковуйте кількість натисків гравця.
- // =================================================================
- // Завдання 4
- // Завдання "Контроль часу": Створіть програму, яка дозволяє користувачу встановити певний час (у секундах) за допомогою введення з клавіатури. Потім використовуйте setTimeout або setInterval, щоб після встановленого часу вивести повідомлення.
+},{}],"4M6V8":[function(require,module,exports,__globalThis) {
 
-},{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire6ee5", {})
+},{}]},["9JJ5D","4M6V8"], "4M6V8", "parcelRequire6ee5", {})
 
-//# sourceMappingURL=goit-tema10.0f77c784.js.map
+//# sourceMappingURL=goit-tema10.59712999.js.map
