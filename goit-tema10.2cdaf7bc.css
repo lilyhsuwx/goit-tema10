@@ -1,2 +1,13 @@
+.div {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
 
+.block1, .block2 {
+  background-color: #000;
+  width: 100px;
+  height: 100px;
+}
 /*# sourceMappingURL=goit-tema10.2cdaf7bc.css.map */

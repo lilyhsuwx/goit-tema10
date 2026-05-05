@@ -1,0 +1,2 @@
+let e=document.querySelector(".counter"),t=0,o=setInterval(()=>{e.textContent=t+=1,5===t&&clearInterval(o)},1e3),r=document.querySelector(".block1"),l=document.querySelector(".block2"),a=10;setInterval(()=>{let e=Math.floor(256*Math.random()),t=Math.floor(256*Math.random()),o=Math.floor(256*Math.random());r.style.backgroundColor=`rgb(${e}, ${t}, ${o})`,a+=1,l.style.width=a+"px",l.style.height=a+"px"},1e3);
+//# sourceMappingURL=goit-tema10.034a66d0.js.map
